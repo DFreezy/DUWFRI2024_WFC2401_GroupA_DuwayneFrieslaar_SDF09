@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Example</title>
+    <!--Here goes my tailwind css links as well as my javascript links which made all this possible in the fastest possible way-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <!--This is where I dove directly into styling the footer starting with the h1 tags-->
+    <footer class="bg-[#659f8f] dark:bg-[#313131]">
+        <div class="container">
+            <footer class="bg-[#659f8f] dark:bg-[#313131]">
+                <div class="container px-6 py-12 mx-auto">
+                    <div class="grid">
+                        <div class="sm:col-span-2">
+                            <!--This is my buttons and input section which made the magic of this page happen-->
+                            <h1 class="max-w-lg font-bold mt-20 flex-auto">Subscribe to our newsletter for updates.</h1>
+                            <br>
+                            <div class="flex gap-1.5 flex-wrap">
+                                <input id="email" type="text" placeholder=" email-address" class="text-center rounded-xl">
+                                <button class="px-6 py-2  bg-red-600 rounded-lg p-12 block">
+                                    Subscribe
+                                </button>
+                            </div>
+                        </div>
+                        <!--Welcome to my navigation links section where I aligned the texts nicely next to each other, but ontop of each other on smaller screen sizes-->
+                        <div>
+                            <p class="flex-auto text-[#313131] text-right font-bold ml-16">Quick Link</p>
+                            <br>
+                            <div>
+                                <ul class="text-right ml-16">
+                               <li> <a href="#">Home</a> </li>
+                                <li> <a href="#">Who We Are</a> </li>
+                              <li> <a href="#">Our Philosophy</a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="flex-auto text-[#313131] text-right font-bold mr-10">Technologies</p>
+                            <br>
+                            <div>
+                                <ul class="text-right mr-10">
+                                <li> <a href="#">HTML</a> </li>
+                                <li> <a href="#">CSS</a> </li>
+                               <li> <a href="#">JavaScript</a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <hr class="my-6 border-[#d86943]">
+                    
+                    <div class="flex">
+                        <a href="#">
+                            <!--This is my amazing Codespace image-->
+                            <img class="w-auto h-7" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="">
+                        </a>
+                    </div>
+    </footer>
+
+</body>
+</html>
+
